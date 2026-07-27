@@ -1,7 +1,16 @@
 aid: gowork
 name: GoWork
-description: GoWork is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GoWork is Indonesia's largest premium coworking and flexible office space
+  provider, operating more than 25 locations across Jakarta, Tangerang,
+  Surabaya, Bali, and Medan. Formed from the 2018 merger of GoWork and Rework,
+  the company offers private offices, dedicated desks, coworking memberships,
+  virtual offices, meeting and event spaces, plus podcast and live-streaming
+  studios. It also bundles business services such as company incorporation, tax
+  and accounting, visa and work-permit processing, and legal support. Members
+  discover, book, and manage workspace through the GoWork mobile apps and web
+  booking platform. GoWork is backed by 500 Global and is tracked in the API
+  Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/gowork/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://go-work.com/assets/images/og-image.png
 tags:
 - Company
+- Coworking
+- Office Space
+- Flexible Workspace
+- Workspace
+- Real Estate
+- PropTech
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,37 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://rework.id
+  url: https://go-work.com
+- type: Pricing
+  url: https://go-work.com/plans
+- type: Blog
+  url: https://go-work.com/blog
+- type: Support
+  url: https://go-work.com/contact-us
+- type: HelpCenter
+  url: https://go-work.com/faq
+- type: SignUp
+  url: https://app.go-work.com/web/book/desk
+- type: Login
+  url: https://app.go-work.com/web/login
+- type: PrivacyPolicy
+  url: https://go-work.com/privacy-policy
+- type: MobileApp
+  url: https://play.google.com/store/apps/details?id=com.rework.app
+- type: MobileApp
+  url: https://apps.apple.com/us/app/gowork-app/id6742314590
+- type: LinkedIn
+  url: https://www.linkedin.com/company/letsgowork/
+- type: Instagram
+  url: https://www.instagram.com/lets.gowork
+- type: Twitter
+  url: https://twitter.com/letsgowork
+- type: YouTube
+  url: https://www.youtube.com/channel/UC5n7BUsGnzcR8RthcFnXoVw
+- type: DomainSecurity
+  url: security/gowork-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
